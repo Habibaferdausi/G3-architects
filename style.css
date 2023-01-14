@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Work+Sans:ital,wght@0,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+}
+nav {
+  margin: 40px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h2 {
+  color: #131313;
+  font-family: Work Sans;
+}
+.nav-info a {
+  color: #424242;
+
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.heading {
+  margin: 5px 245px;
+  font-family: Work Sans;
+  text-align: center;
+}
+.heading h1 {
+  color: #131313;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: Work Sans;
+  line-height: 75px;
+}
+.des {
+  color: #424242;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.btn {
+  background-color: #ff900e;
+  color: #ffff;
+  border: 0;
+  padding: 10px 25px;
+  border-radius: 6px;
+}
+.banner-img {
+  margin: 70px;
+}
+
+.features-container {
+  display: flex;
+  margin: 5px 120px;
+  align-items: center;
+}
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.teams img {
+  height: 340px;
+  width: 340px;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  width: 100%;
+}
+.quick-list {
+  margin-left: 60px;
+}
+.span1 {
+  color: #424242;
+}
+.span2 {
+  color: #ff900e;
+}
+/*----features list-----*/
+
+.features-list {
+  display: grid;
+  padding-left: 100px;
+  margin-top: 70px;
+  margin-buttom: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+.features-list .title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.features-list {
+  padding-top: 20px;
+}
+.list-nmbr {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.list-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.features-img {
+  margin-left: 50px;
+  height: 100%;
+}
+.btn span {
+  font-size: 22px;
+  font-weight: 600;
+}
+.features-img .btn {
+  margin-left: 50px;
+  margin-top: -120px;
+}
