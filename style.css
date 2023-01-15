@@ -8,19 +8,19 @@
 /*----------nav-----------*/
 
 nav {
-  margin-left: 120px;
+  padding-left: 120px;
   padding-top: 40px;
-  margin-right: 120px;
+  padding-right: 120px;
   display: flex;
   justify-content: space-between;
 }
 .navbar h2 {
   color: #131313;
   font-family: Work Sans;
+  font-size: 26px;
 }
 .nav-info a {
   color: #424242;
-
   text-decoration: none;
   padding: 20px;
   font-size: 18px;
@@ -31,7 +31,7 @@ header {
   background-color: rgba(255, 144, 14, 0.1);
 }
 .heading {
-  margin: 5px 245px;
+  padding: 10px 245px;
   font-family: Work Sans;
   text-align: center;
 }
@@ -61,8 +61,8 @@ header {
   border-radius: 6px;
 }
 .banner-img {
-  margin-top: 50px;
-  margin-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -71,7 +71,7 @@ header {
 
 .features-container {
   display: flex;
-  margin: 5px 120px;
+padding: 20px 120px;
   align-items: center;
 }
 .teams {
@@ -90,7 +90,8 @@ header {
   width: 100%;
 }
 .quick-list {
-  margin-left: 60px;
+  padding-left: 60px;
+  padding-right: 0;
 }
 .span1 {
   color: #424242;
@@ -102,12 +103,16 @@ header {
 
 .features-list {
   display: grid;
-  margin-left: 120px;
   margin-top: 70px;
   margin-buttom: 100px;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: space-around;
+}
+.lists{
+  padding-left: 120px;
+  padding-top: 10px;
+  padding-right: 0;
+ 
 }
 .features-list .title {
   border-left: 5px solid #ff900e;
@@ -118,10 +123,12 @@ header {
 .list {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
+  padding-top: 10px;
+  gap: 20px;
 }
 .list-nmbr {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+ 
   padding: 10px;
 }
 .list-title {
@@ -223,7 +230,7 @@ header {
   color: #424242;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 190px;
+  padding-bottom: 100px;
 }
 .footer h5 {
   background-color: #fff4e7;
@@ -235,58 +242,126 @@ header {
 }
 /*----mobile resp---------*/
 
-@media screen and (max-width: 556px) {
-  header {
-    height: 500px;
-  }
-  .navbar {
-    width: 100%;
-  }
-  .navbar h2 {
-    font-size: 18px;
-    padding-top: 12px;
-    text-align: center;
-  }
-  .navbar ul {
-    width: 100%;
-    padding-top: 12px;
-  }
-  .navbar ul a {
-    font-size: 12px;
-    padding-right: 10px;
-  }
-  .section1 {
-    padding-top: 30px;
-  }
-  .heading h1 {
-    font-size: 34px;
-    text-align: center;
-  }
-  .des {
-    font-size: 13px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .btn {
-    width: 90px;
-    height: 32px;
-  }
-  .banner-img {
-    width: 360px;
-    height: 175px;
-  }
-  .features-container {
-    height: 1850px;
-    flex-direction: column;
-    gap: 30px;
-  }
-  .teams {
-    grid-template-columns: repeat(1, 1fr);
+@media screen  and (max-width:556px) {
+  /*-----banner----*/
+
+ nav{
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+ }
+  
+.navbar h2{
+  font-size: 18px;
+ padding-left: 18px;
+}
+
+.nav-info ul{
+  width: 100%;
+  padding-right: 0;
+}
+
+.nav-info a{
+  font-size: 12px;
+  padding-right: 10px;
+
+}
+.section1{
+  background-color:brown;
+  width: 100%;
+}
+.heading h1{
+  font-size: 10px;
+  margin: 0;
+  padding:0;
+}
+.des{
+  font-size: 12px
+   margin-left: 20px;
+   margin-right: 20px;;
+}
+.banner-img img{
+  width: 355px;
+}
+/*----features------*/
+
+.features-container{
+  flex-direction: column;
+    gap: 25px;
+}
+.teams
+{
+  grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-    padding-top: 50px;
-  }
-  .quick-list {
-    text-align: center;
-    padding-top: 35px;
-  }
+    padding-top: 30px;
+}
+.quick-list{
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/*--features-list*/
+
+.features-list{
+display: flex;
+flex-direction: column;
+gap:30px;
+}
+.lists{
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+
+}
+.list{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.features-img img{
+  width: 350px;
+  height: 500px;
+  margin: auto;
+
+}
+.features-img .btn{
+  align-items: center;
+  margin-top: 30px;
+
+}
+/*----Some facts-----*/
+.facts-title{
+  font-size: 32px;
+  text-align: center;
+}
+
+
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+/*-----sponsor------*/
+.sponsors-container{
+  gap: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.sponsors-container img {
+  width: 55px;
+  height: 17px;
+}
+
+/*---footer----*/
+.footer{
+  margin: 0;
+  padding: 0;
+ 
+}
+.footer h5{
+  font-size: 8px;
+  padding: 20px;
 }
