@@ -53,7 +53,12 @@ nav {
   border-radius: 6px;
 }
 .banner-img {
-  margin: 70px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .features-container {
@@ -113,6 +118,7 @@ nav {
 }
 .features-img {
   margin-left: 50px;
+  height: 100vh;
   height: 100%;
 }
 .btn span {
@@ -120,6 +126,71 @@ nav {
   font-weight: 600;
 }
 .features-img .btn {
-  margin-left: 50px;
-  margin-top: -120px;
+  text-align: center;
+  padding: 36px 30px;
+
+  margin-top: -55px;
+  margin-left: 30px;
+}
+/*----some-facts---*/
+
+.facts-title {
+  margin: 70px 120px;
+  width: 50%;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+  margin-left: 150px;
+  margin-right: 130px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.fact {
+  border: 1px solid #ff900e;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+.fact-title {
+  color: #424242;
+  font-size: 38px;
+  padding: 7px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.fact-des {
+  color: #424242;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400px;
+  padding-bottom: 60px;
+}
+/*-------sponsors--------*/
+
+.sponsors {
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 30px;
+}
+.sponsors-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 90px;
+}
+/*---------footer---------*/
+
+.footer {
+  color: #424242;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 190px;
 }
