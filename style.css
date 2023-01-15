@@ -236,13 +236,16 @@ header {
 /*----mobile resp---------*/
 
 @media screen and (max-width: 556px) {
+  header {
+    height: 500px;
+  }
   .navbar {
     width: 100%;
   }
   .navbar h2 {
     font-size: 18px;
     padding-top: 12px;
-    padding-right: 100px;
+    text-align: center;
   }
   .navbar ul {
     width: 100%;
@@ -257,7 +260,7 @@ header {
   }
   .heading h1 {
     font-size: 34px;
-    padding-bottom: 15px;
+    text-align: center;
   }
   .des {
     font-size: 13px;
@@ -267,5 +270,23 @@ header {
   .btn {
     width: 90px;
     height: 32px;
+  }
+  .banner-img {
+    width: 360px;
+    height: 175px;
+  }
+  .features-container {
+    height: 1850px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .teams {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    padding-top: 50px;
+  }
+  .quick-list {
+    text-align: center;
+    padding-top: 35px;
   }
 }
