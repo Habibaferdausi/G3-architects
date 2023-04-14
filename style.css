@@ -72,6 +72,7 @@ header {
   display: flex;
   padding: 20px 120px;
   align-items: center;
+  margin-top: 20px;
 }
 .teams {
   display: grid;
@@ -90,6 +91,7 @@ header {
 .quick-list {
   margin-left: 30px;
   padding-right: 0;
+  padding-left: 20px;
 }
 .span1 {
   color: #424242;
@@ -163,8 +165,9 @@ header {
 /*----some-facts---*/
 
 .facts-title {
-  margin: 70px 120px;
-  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .facts-container {
   display: grid;
@@ -175,6 +178,7 @@ header {
   text-align: center;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
 }
 .fact {
   border: 1px solid #ff900e;
@@ -240,7 +244,7 @@ header {
 }
 .goal1 {
   width: 360px;
-  height: 352px;
+  height: 300px;
   padding: 20px;
   background-color: rgba(79, 157, 166, 0.22);
   border-radius: 5px;
@@ -252,7 +256,7 @@ header {
 }
 .goal2 {
   width: 360px;
-  height: 352px;
+  height: 300px;
   padding: 20px;
   margin-left: 20px;
   background-color: rgba(245, 211, 211, 0.64);
@@ -265,7 +269,7 @@ header {
 }
 .goal3 {
   width: 360px;
-  height: 352px;
+  height: 300px;
   padding: 20px;
   margin-left: 20px;
   background-color: #f3f2cd;
