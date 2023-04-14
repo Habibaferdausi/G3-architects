@@ -6,11 +6,11 @@ In this website I used HTML5 and Vanila css also add some animation like rotate 
 
 ## Features
 
--Features List
+- Features List
 - Facts about Company
 - Sponsors
 - Future goals
 
 ## 🔗 Links
 
-[G3-Architects]()
+[G3-Architects](https://habibaferdausi.github.io/G3-architects/)
